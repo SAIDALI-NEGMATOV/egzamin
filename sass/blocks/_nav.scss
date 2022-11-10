@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    
+    .nav{
+        width:95%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        
+    }
+    
+  
+    .right{
+        width: 40%;
+        
+        ul{
+            display: flex;
+            justify-content: space-around;
+
+            .button{
+                border: 2px solid transparent;
+                padding: 7px 30px ;
+                border-radius: 10px;
+                color: #fff;
+                background-color: $button_bg_color;
+            }
+            a{
+                color: black;
+                font-weight: 650;
+                font-family: $font_f_text;
+            }
+            
+        }
+
+    }
+
+}

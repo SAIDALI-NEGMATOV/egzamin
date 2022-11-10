@@ -1,0 +1,1154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.exc_content {
+  width: 100%;
+  height: 3600px;
+  position: relative;
+  background: url(/sass/images/Rectangle\ \(2\).png);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.exc_content .rarity {
+  width: 58%;
+  height: 3500px;
+  border: 1px solid transparent;
+  position: relative;
+}
+.exc_content .rarity .img_t {
+  width: 100px;
+  height: 35px;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 90px;
+}
+.exc_content .rarity .img_t .img {
+  background: url(/sass/images/Vector\ \(1\).png);
+  width: 35px;
+  height: 35px;
+  background-repeat: round;
+}
+.exc_content .rarity .img_t p {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  z-index: 10;
+  position: absolute;
+  font-family: "open sans";
+  top: 10px;
+  left: 15px;
+}
+.exc_content .rarity .text_eclusive {
+  width: 60%;
+  height: 60px;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+}
+.exc_content .rarity .text_eclusive p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 58px;
+}
+.exc_content .rarity .common {
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.exc_content .rarity .common .common_1 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common .common_1 .c_text {
+  width: 180px;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common .common_1 .c_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo {
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_twoo {
+  width: 80px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_twoo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three {
+  width: 130px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three .krug {
+  width: 17px;
+  height: 20px;
+  border: 1px solid transparent;
+  background: url(/sass/images/krug1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three .one {
+  background: url(/sass/images/krug2.png);
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three .twoo {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three .forr {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common .common_1 .c_text_twoo .c_three .three {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common .common_1 .os_text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common .common_1 .os_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.exc_content .rarity .common .screen {
+  width: 400px;
+  height: 480px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  background: url(/sass/images/IMAGE\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_2 {
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.exc_content .rarity .common_2 .common_3 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_2 .common_3 .c_text {
+  width: 220px;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_2 .common_3 .c_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo {
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_twoo {
+  width: 80px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_twoo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three {
+  width: 130px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three .krug {
+  width: 16px;
+  height: 20px;
+  border: 1px solid transparent;
+  background: url(/sass/images/krug1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three .one {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three .twoo {
+  background: url(/sass/images/krug2.png);
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three .forr {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common_2 .common_3 .c_text_twoo .c_three .three {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common_2 .common_3 .os_text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_2 .common_3 .os_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.exc_content .rarity .common_2 .screen {
+  width: 400px;
+  height: 480px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  background: url(/sass/images/IMAGE\ \(8\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_4 {
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 1550px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.exc_content .rarity .common_4 .common_5 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_4 .common_5 .c_text {
+  width: 220px;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_4 .common_5 .c_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo {
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_twoo {
+  width: 80px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_twoo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three {
+  width: 130px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three .krug {
+  width: 16px;
+  height: 20px;
+  border: 1px solid transparent;
+  background: url(/sass/images/krug1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three .one {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three .twoo {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three .forr {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common_4 .common_5 .c_text_twoo .c_three .three {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common_4 .common_5 .os_text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_4 .common_5 .os_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.exc_content .rarity .common_4 .screen {
+  width: 400px;
+  height: 480px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  background: url(/sass/images/IMAGE\ \(9\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_6 {
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 2200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.exc_content .rarity .common_6 .common_7 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_6 .common_7 .c_text {
+  width: 220px;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_6 .common_7 .c_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo {
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_twoo {
+  width: 80px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_twoo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three {
+  width: 130px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three .krug {
+  width: 16px;
+  height: 20px;
+  border: 1px solid transparent;
+  background: url(/sass/images/krug1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three .one {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three .twoo {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three .forr {
+  background: url(/sass/images/krug3.png);
+}
+.exc_content .rarity .common_6 .common_7 .c_text_twoo .c_three .three {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_6 .common_7 .os_text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_6 .common_7 .os_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.exc_content .rarity .common_6 .screen {
+  width: 600px;
+  height: 480px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  background: url(/sass/images/IMAGE\ \(10\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_8 {
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 2850px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.exc_content .rarity .common_8 .common_9 {
+  width: 400px;
+  height: 400px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_8 .common_9 .c_text {
+  width: 220px;
+  height: 50px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_8 .common_9 .c_text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo {
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_twoo {
+  width: 80px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_twoo p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three {
+  width: 130px;
+  height: 30px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three .krug {
+  width: 16px;
+  height: 20px;
+  border: 1px solid transparent;
+  background: url(/sass/images/krug1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three .one {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three .twoo {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three .forr {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_8 .common_9 .c_text_twoo .c_three .three {
+  background: url(/sass/images/krug1.png);
+}
+.exc_content .rarity .common_8 .common_9 .os_text {
+  width: 100%;
+  height: 150px;
+  border: 1px solid transparent;
+}
+.exc_content .rarity .common_8 .common_9 .os_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.exc_content .rarity .common_8 .screen {
+  width: 600px;
+  height: 480px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  background: url(/sass/images/IMAGE\ \(13\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.exc_content .rarity .end {
+  width: 100%;
+  border-top: 1px solid rgba(64, 71, 86, 0.6);
+  position: absolute;
+  top: 3500px;
+}
+
+@media screen and (max-width: 375px) {
+  .exc_content {
+    width: 630px;
+  }
+  .exc_content .rarity .text_eclusive {
+    width: 400px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .text_eclusive p {
+    font-size: 20px;
+  }
+  .exc_content .rarity .common {
+    top: 200px;
+    padding: 30px;
+    width: 200px;
+  }
+  .exc_content .rarity .common .common_1 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common .common_1 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common .common_1 .c_text p {
+    font-size: 35px;
+  }
+  .exc_content .rarity .common .common_1 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common .common_1 .os_text p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .exc_content .rarity .common .screen {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_2 {
+    top: 850px;
+    padding: 30px;
+    width: 200px;
+  }
+  .exc_content .rarity .common_2 .common_3 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text p {
+    font-size: 35px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_2 .common_3 .os_text p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .exc_content .rarity .common_2 .screen {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_4 {
+    top: 1500px;
+    padding: 30px;
+    width: 200px;
+  }
+  .exc_content .rarity .common_4 .common_5 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text p {
+    font-size: 35px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_4 .common_5 .os_text p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .exc_content .rarity .common_4 .screen {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_6 {
+    top: 2150px;
+    padding: 30px;
+    width: 200px;
+  }
+  .exc_content .rarity .common_6 .common_7 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text p {
+    font-size: 35px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_6 .common_7 .os_text p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .exc_content .rarity .common_6 .screen {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    left: -160px;
+  }
+  .exc_content .rarity .common_8 {
+    top: 2800px;
+    padding: 30px;
+    width: 200px;
+  }
+  .exc_content .rarity .common_8 .common_9 {
+    width: 200px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text p {
+    font-size: 35px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_8 .common_9 .os_text p {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .exc_content .rarity .common_8 .screen {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    left: -160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .exc_content {
+    height: 4000px;
+  }
+  .exc_content .rarity .text_eclusive {
+    width: 400px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .text_eclusive p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common {
+    top: 200px;
+    padding: 30px;
+    width: 450px;
+  }
+  .exc_content .rarity .common .common_1 {
+    width: 400px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common .common_1 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common .common_1 .c_text p {
+    font-size: 45px;
+  }
+  .exc_content .rarity .common .common_1 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common .common_1 .os_text p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common .screen {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_2 {
+    top: 900px;
+    padding: 30px;
+    width: 450px;
+  }
+  .exc_content .rarity .common_2 .common_3 {
+    width: 400px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_2 .common_3 .os_text p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_2 .screen {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_4 {
+    top: 1600px;
+    padding: 30px;
+    width: 450px;
+  }
+  .exc_content .rarity .common_4 .common_5 {
+    width: 400px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_4 .common_5 .os_text p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_4 .screen {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_6 {
+    top: 2300px;
+    padding: 30px;
+    width: 450px;
+  }
+  .exc_content .rarity .common_6 .common_7 {
+    width: 400px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_6 .common_7 .os_text p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_6 .screen {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    left: -200px;
+  }
+  .exc_content .rarity .common_8 {
+    top: 3000px;
+    padding: 30px;
+    width: 450px;
+  }
+  .exc_content .rarity .common_8 .common_9 {
+    width: 400px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_8 .common_9 .os_text p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_8 .screen {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    left: -200px;
+  }
+  .exc_content .rarity .end {
+    top: 3700px;
+    width: 490px;
+    left: -45px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .exc_content {
+    height: 4000px;
+  }
+  .exc_content .rarity .text_eclusive {
+    width: 600px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .text_eclusive p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common {
+    top: 200px;
+    padding: 30px;
+    width: 650px;
+  }
+  .exc_content .rarity .common .common_1 {
+    width: 600px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common .common_1 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common .common_1 .c_text p {
+    font-size: 50px;
+  }
+  .exc_content .rarity .common .common_1 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common .common_1 .os_text p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common .screen {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 280px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_2 {
+    top: 900px;
+    padding: 30px;
+    width: 650px;
+  }
+  .exc_content .rarity .common_2 .common_3 {
+    width: 600px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_2 .common_3 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_2 .common_3 .os_text p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_2 .screen {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 280px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_4 {
+    top: 1600px;
+    padding: 30px;
+    width: 650px;
+  }
+  .exc_content .rarity .common_4 .common_5 {
+    width: 600px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_4 .common_5 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_4 .common_5 .os_text p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_4 .screen {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 280px;
+    right: 20px;
+    left: 0px;
+  }
+  .exc_content .rarity .common_6 {
+    top: 2300px;
+    padding: 30px;
+    width: 650px;
+  }
+  .exc_content .rarity .common_6 .common_7 {
+    width: 600px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_6 .common_7 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_6 .common_7 .os_text p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_6 .screen {
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    left: -200px;
+  }
+  .exc_content .rarity .common_8 {
+    top: 3000px;
+    padding: 30px;
+    width: 650px;
+  }
+  .exc_content .rarity .common_8 .common_9 {
+    width: 600px;
+    border: 1px solid transparent;
+    height: 250px;
+    position: absolute;
+    left: -1px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text {
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text p {
+    font-size: 42px;
+  }
+  .exc_content .rarity .common_8 .common_9 .c_text_twoo {
+    margin-bottom: 10px;
+  }
+  .exc_content .rarity .common_8 .common_9 .os_text p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .exc_content .rarity .common_8 .screen {
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    left: -200px;
+  }
+  .exc_content .rarity .end {
+    top: 3700px;
+    width: 690px;
+    left: -45px;
+  }
+}/*# sourceMappingURL=style.css.map */
